@@ -265,6 +265,9 @@ body{
 }
 /* media query section */
 @media only screen and (max-width: 767px) {
+    body{
+        padding: 20px;
+    }
     .header{
         width: 100%;
         background-color: gray;
@@ -318,6 +321,9 @@ body{
 }
 /* media query for tablet */
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    body{
+        padding: 20px;
+    }
     .header{
         width: 100%;
         background-color: rgb(209, 92, 92);
@@ -346,6 +352,7 @@ body{
     }
     .gear-container{
         align-items: center;
+        padding: 20px;
     }
     .banner img{
         margin-top: 30px;
